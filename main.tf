@@ -115,7 +115,7 @@ resource "aws_security_group" "web_sg" {
 
 # EC2 INSTANCE
 resource "aws_instance" "ec2" {
-  ami                    = "ami-070e5bd3ff10324f8
+  ami                    = "ami-070e5bd3ff10324f8"
   instance_type          = "t3.micro"
   subnet_id              = aws_subnet.public_subnet.id
   vpc_security_group_ids = [aws_security_group.web_sg.id]
