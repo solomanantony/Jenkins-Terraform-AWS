@@ -79,6 +79,7 @@ resource "aws_route_table_association" "rta" {
   route_table_id = aws_route_table.rt.id
 }
 
+
 # SECURITY GROUP
 
 resource "aws_security_group" "web_sg" {
