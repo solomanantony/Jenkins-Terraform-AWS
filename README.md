@@ -27,7 +27,7 @@ Jenkins → Terraform → AWS (VPC + EC2 + S3)
 
 .
 ├── main.tf  
-├── screenshots/  
+├── screenshot/  
 │   ├── jenkins_overview.png  
 │   ├── source_code_setup.png  
 │   ├── build_steps1.png  
